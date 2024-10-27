@@ -1,0 +1,156 @@
+@media (min-width: 0px) and (max-width: 850px) {
+
+    /* HEADER */
+
+    .header-container {
+        background-color: var(--color-6);
+        position: absolute;
+    }
+
+    .header-content {
+        padding: 2% 5% 2% 5%;
+    }
+
+    .logo-image {
+        width: 9.5vw;
+    }
+
+    .content-nav {
+        display: none;
+    }
+
+    .content-navbar {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content-navbar > button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0% 0% 8% 0%;
+    }
+
+    .list-content {
+        padding: 5% 0% 2% 0%;
+    }
+
+    .list-content > a {
+        color: var(--color-white);
+        font-family: var(--second-font);
+        font-weight: 200;
+
+    }
+
+    .mobile-menu {
+        display: none;
+        background-color: var(--color-6);
+    }
+    
+    .open {
+        display: block;
+    }
+
+    /* SECTION 1 */
+
+    .section1-content {
+        height: 95vh;
+    }
+
+    .section1-image {
+        margin: 5% 0% 0% 0%;
+        width: 25vw;
+    }
+
+    .section1-title {
+        font-size: 1.5rem;
+        margin: 10% 0% 8% 0%;
+    }
+
+    .section1-desc {
+        font-size: 1.2rem;
+        padding: 0% 5% 0% 5%;
+    }
+
+    /* SECTION 2 */
+
+    .section2-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2-image {
+        width: 90vw;
+    }
+
+    .section2-title {
+        font-size: 2.5rem;
+        padding: 15% 0% 0% 0%;
+        margin: 0% 0% 10% 0%;
+    }
+
+    .section2-desc {
+        font-size: 1.2rem;
+    }
+
+
+    .section2-button {
+        font-size: 1.2rem;
+        margin: 10% 0% 10% 0%;
+        padding: 3% 4% 3% 4%;
+    }
+
+    /* FOOTER */
+    
+    .footer-content {
+        padding: 7% 0% 7% 0%;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+        margin: 0% 0% 3% 0%;
+    }
+
+    /* PAGES */
+
+    /* SECTION 1 - CREDITOS */
+
+    .profile-content {
+        padding: 8% 0% 0% 0%;
+    }
+
+    .profile-image {
+        width: 30vw;
+    }
+
+    /* SECTION 2 - LOOKS */
+
+    .section2-content-looks {
+        padding: 5% 0% 10% 0%;
+    }
+
+    .section2-looks {
+        padding: 5% 0% 0% 15%;
+        gap: 0.5rem;
+    }
+
+    .section2-look {
+        width: 30vw;
+    }
+    
+}
